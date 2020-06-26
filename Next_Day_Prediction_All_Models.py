@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_csv("FEDERALBNK.NS.csv")
+dataset = pd.read_csv("something.csv")
 X = dataset.iloc[:-2,1:-2].values
 Y = dataset.iloc[:-2,-2].values
 x = dataset.iloc[:-2,1:-2].values
